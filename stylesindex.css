@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Commissioner, sans-serif;
+}
+
+body {
+    background: linear-gradient(to left, #f2564b, #3267c2);
+
+}
+
+
+.title{
+    font-size:50px;
+    text-align:center;
+    color:#4a4a4a;
+    text-shadow: 5px 5px 8px #4a4a4a;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.biden {
+    width:55vh;
+    height:70vh;
+    margin-right:15px;
+}
+
+.trump {
+    width:55vh;
+    height:70vh;
+    margin-left:15px;
+}
+
+.nav {
+    padding:20px;
+    text-align:center;
+}
+
+.main {
+    height: 50px;
+    width: 120px;
+    font-size:20px;
+    margin-left:15px;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.main:hover {
+    background-color: #c2c2c2;
+    cursor:pointer;
+}
+
+.demo {
+    height: 50px;
+    width: 120px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.demo:hover {
+    background-color: #c2c2c2;
+    cursor:pointer;
+}
+
+.repub {
+    height: 50px;
+    width: 120px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.repub:hover {
+    background-color: #c2c2c2;
+    cursor:pointer;
+}
+
+a {
+    color:#3267c2;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#f2564b;
+}
+
+footer {
+    text-align:center;
+}
