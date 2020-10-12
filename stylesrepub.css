@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Commissioner, sans-serif;
+}
+
+body {
+    background-color:#f2564b;
+}
+
+.nav {
+    padding:20px;
+    text-align:center;
+}
+
+.trump {
+    position:absolute;
+    height: 60vh;
+    width: 45vh;
+    margin-left:145vh;
+    margin-top:5vh;
+}
+
+.content {
+    position: relative;
+    left: 30vh;
+    top:5vh;
+    width: 90vh;
+    height: 60vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #820b00;
+}
+
+p{
+    font-size:25px;
+    color:#820b00;
+}
+
+.main {
+    height: 50px;
+    width: 120px;
+    font-size:20px;
+    margin-left:15px;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+.main:hover {
+    background-color: #c2c2c2;
+    cursor:pointer;
+}
+
+.demo {
+    height: 50px;
+    width: 120px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.demo:hover {
+    background-color: #c2c2c2;
+    cursor:pointer;
+}
+
+.repub {
+    height: 50px;
+    width: 120px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.repub:hover {
+    background-color: #c2c2c2;
+    cursor:pointer;
+}
+
+a {
+    color:#f2564b;;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#3267c2;
+}
+
+footer {
+    margin-top: 22vh;
+    text-align:center;
+}
+
+.links {
+    position:absolute;
+    bottom:0px;
+    margin-left:25vh;
+}
+
+.links > a{
+    color:#820b00;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.links >a:hover{
+    color:#470600;
+}
